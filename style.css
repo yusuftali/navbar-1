@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0px;
+    height: 3rem;
+    box-shadow: 1px 1px 10px aqua;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 34%;
+    height: 100%;
+    background-color: aqua;
+    margin: 0;
+    padding-left: 8px;
+    box-shadow: 1px 1px 10px aquamarine;
+  }
+  
+  .menu {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color:greenyellow;
+    border-radius: 10px;
+  }
+  
+  .menu p {
+    margin: 5px 10px;
+    padding: 10px;
+    transition: all 0.5s ease;
+    color:blueviolet;
+  }
+  
+  .menu p:hover {
+    background-color: yellow;
+    border-radius: 12px 0px;
+    outline: 2px ridge red;
+    outline-offset: 5px;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .iletisim {
+    padding-right: 10px;
+    display: flex;
+    width: 34%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(6, 158, 158);
+    background-color: aquamarine;
+  }
+  
+  .iletisim i {
+    margin: 10px;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .iletisim i:hover {
+    border-radius: 10px 0px;
+    transform: scale(1.5);
+    color: greenyellow;
+  }
+  
+  .logo img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+  }
+  
